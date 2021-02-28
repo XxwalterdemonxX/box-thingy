@@ -1,0 +1,62 @@
+body{
+  background: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+#boxes{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#btns{
+  padding: 20px;
+  
+  margin-bottom: 20px;
+}
+
+#btns button{
+  background: #ffffff;
+  padding: 5px 10px;
+  border: 0;
+}
+
+#btns .fa{
+  font-size: 30px;
+}
+
+#btns .fa-play-circle{
+  color: green;
+}
+
+#btns .fa-pause-circle{
+  color: #4B2498;
+}
+
+#btns .fa-stop-circle{
+  color: #FF010E;
+}
+
+.box{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  display: inline-block;
+
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.brown{
+  background-color: brown;
+}
